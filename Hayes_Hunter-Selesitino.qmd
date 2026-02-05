@@ -1,0 +1,40 @@
+---
+title: "Hayes_Hunter-Selesitino"
+data: 02-04-2026
+format: html
+editor: visual
+---
+
+```{r}
+library(brms) # for statistics
+library(tidyverse)
+library(ggeffects) # for the prediction plot
+library(lterdatasampler) # for built-in datasets
+```
+
+```{r}
+head(pie_crab)
+pie_crab
+```
+
+```{r}
+#Loading ggplot package and lopading library
+library(ggplot2)
+pie_crab %>% ggplot(aes(x = latitude, y = size)) + geom_point() + 
+# Make the y-axis include 0
+   ylim(0, NA)
+```
+
+#### Q1.1
+
+Yes there does appear to be a linear positive trend where as latitude increase size does as well. There seems to be a lot of variation, but does follow a gradual increase. We do not feel very confident, but we do believe there is a trend, but whether it is significant we are not entirely sure.
+
+#### Q1.2
+
+```{r}
+pie_crab %>% 
+  ggplot(aes(x = latitude, y = size)) + 
+  geom_point() + 
+   ylim(0, NA) + 
+  labs(aes(x = "Latitude", y = "Size (mm)", color = ))
+```
