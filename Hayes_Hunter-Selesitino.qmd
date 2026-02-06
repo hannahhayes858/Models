@@ -1,7 +1,7 @@
 ---
 title: "Hayes_Hunter-Selesitino"
 data: 02-04-2026
-format: html
+format: pdf
 editor: visual
 ---
 
@@ -306,25 +306,5 @@ Despite the estimate showing a decrease of 0.31 GCM/grams of Glucocorticoid Meta
 
 ------------------------------------------------------------------------
 
-### Bonus: Repeat with the other variable for practice
 
-If you have extra time and would like more practice, you may optionally repeat these analyses with the other predictor variable.
 
-------------------------------------------------------------------------
-
-Throughout this activity, both datasets had multiple possible predictor variables that we chose between to model our response variable of interest: crab body size had latitude, temperature, and the variability of temperature. Pika stress had elevation and day of year. You may be wondering: why do we have to choose only one variable? Is it possible that both variables are important in their own way?
-
-This is a great question, and is the foundation for what we will do next week, which is *multiple regression*: a way of setting up models while incorporating the influence of multiple predictors *at the same time*!
-
-------------------------------------------------------------------------
-
-### Render to PDF
-
-When you have finished, practice the GitHub push/pull:
-
--   Pull to check for updates to the remote branch
--   Stage your edits (after saving your document!) by checking the documents you'd like to push
--   Commit your changes with a commit message
--   Push your changes to the remote branch
-
-And submit the well-labeled PDF on Gradescope. Thanks!
